@@ -1,8 +1,6 @@
 <div class="wpdki-plug-sidebar-content">
-	<div class="srx-wpdki-plug-sidebar-main-section">
-		<a href="https://www.seerox.com/contact-us/" target="blank"><img class="srx-sidebar-contact" src="https://wpdki.com/wp-content/uploads/2024/06/seerox-services-banner-wpdki.png"></a>
-	</div>
-	<h1><b>Try WPDKI PRO with more features</b></h1>
+	
+	<!-- <h1><b>Try WPDKI PRO with more features</b></h1>
 	<div class="srx-wpdki-plug-sidebar-main-section">
 		<div class="srx-wpdki-trial-form">
 			<form method="POST" id="srx_wpdki_trial_form">
@@ -26,46 +24,37 @@
 			</form>
 			<div class="srx-wpdki-tf-m" id="srx_wpdki_tf_m"></div>
 		</div>
-	</div>
-	
-	<h1><b>Need help for Using this?</b></h1>
-	<h4 class="srx-tagline"><b>Click below to watch Guidelines for this plugin</b></h4>
-	<div class="srx-wpdki-plug-sidebar-main-section">
-		<div id="srxwpdkivideoStory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
-			<?php
-				$srx_close_btn_ajax_nonce = wp_create_nonce( "srx_close_btn_ajax_nonce" );
-				echo '<button id="srx-close-btn" name="srx-close-btn" class="srx-close-btn-style"><img src="' . esc_url( plugins_url( '/images/close-white.png', __FILE__ ) ) . '" width="20" height="20" /></button>'; 
-			?>
-			<center>
-				<iframe class="srx-video-wpdki" width="900" height="500" src="https://www.youtube.com/embed/4DMTdlvIisY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</center>
-			<input type="hidden" id="srx_ajax_popup_url" value="<?php echo esc_url(admin_url('admin-ajax.php')); ?>">
-		</div>
-		<?php 
-		echo '<a href="https://wpdki.com/free-version-demonstration/" target="_blank"><img src="' . esc_url( plugins_url( '/images/banner-new-one.png', __FILE__ ) ) . '" alt="sidebar" width="100%" height="auto"></a> ';
-		
-		$popup_exist = get_option( 'srx_popup_open' );
+	</div> -->
 
-		if(isset($_GET['page']) && ($_GET['page'] == 'seerox_wpdki_settings') && ($popup_exist == false)){
-	  	?>
-			<script>
-				jQuery.magnificPopup.open({
-				  items: {src: '#srxwpdkivideoStory'},
-				  type: 'inline',
-				  closeOnContentClick : false,
-				  closeOnBgClick: false,
-				}, 0);
-			</script>
-		<?php
-  		}
-		?>
-
-	</div>
-	<!-- old sidebar menu -->
-	<h1><b>WP Dynamic Keywords Injector PRO</b></h1>
+	<!-- Upgrade notice -->
+	<!-- <h1><b>Upgrade Notice</b></h1> -->
 	<div class="srx-wpdki-plug-sidebar-main-section">
 		<ul>
-			<p>WPDKI Pro Launching Soon with following awesome features</p>
+			<p><b>🚀 Turn Every Click Into a Perfect Match – Boost Ad Score & Lower CPC! 🚀</b></p>
+
+			<p>You're missing out! WPDKI Pro dynamically injects campaign keywords & visitors' interests or physical location onto your landing pages using Google ValueTrack parameters—making your ads more relevant, increasing Ad Score, and reducing CPC for higher ROI—all without any complex setup</p>
+
+			<p><a class="srx_link_style" href="https://wpdki.com/knowledge-base/setup-google-ads-parameters/pass-google-ad-campaign-keywords-and-visitor-physical-location-on-your-wordpress-landing-page-through-valuetrack-parameters/" target="_blank">🔓 Click here to learn How?</a></p>
+
+			<a href="https://wpdki.com/pricing/" target="_blank"><button class="srx-banner-button button button-primary">Upgrade Now</button></a>
+		</ul>
+	</div>
+
+	<!-- old sidebar menu -->
+	<h1><b>WPDKI Pro Features</b></h1>
+	<div class="srx-wpdki-plug-sidebar-main-section">
+		<ul>
+			<!-- <p>WPDKI Pro Launching Soon with following awesome features</p> -->
+			
+			<li class="srx-wpdki-plug-sidebar-widget-c-li">
+				<strong>Inject ValueTrack Parameters</strong> <span class="srx-top-feature">Top Feature</span>
+			</li>
+			<li class="srx-wpdki-plug-sidebar-widget-c-li">
+				<strong>Display Ad Visitor’s Real Physical <br>Location</strong> <span class="srx-top-feature">Top Feature</span>
+			</li>
+			<li class="srx-wpdki-plug-sidebar-widget-c-li">
+				<strong>Show Google Ad Campaign <br>Keywords</strong> <span class="srx-top-feature">Top Feature</span>
+			</li>
 			<li class="srx-wpdki-plug-sidebar-widget-c-li">
 				<strong>Unlimited Landing Pages</strong>
 			</li>
@@ -115,9 +104,48 @@
 				<strong>Relevant Random Post Link ShortCode</strong>
 			</li>
 			<br>
-			<a href="https://wpdki.com/14-days-free-trial/" target="_blank"><button class="srx-banner-button button button-primary">Free 14 Days Pro Upgrade</button></a>
+			<a href="https://wpdki.com/pricing/" target="_blank"><button class="srx-banner-button button button-primary">Upgrade Now</button></a>
 		</ul>
 	</div>
+	
+	<!-- <h1><b>Need help for Using this?</b></h1>
+	<h4 class="srx-tagline"><b>Click below to watch Guidelines for this plugin</b></h4>
+	<div class="srx-wpdki-plug-sidebar-main-section">
+		<div id="srxwpdkivideoStory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
+			<?php
+				$srx_close_btn_ajax_nonce = wp_create_nonce( "srx_close_btn_ajax_nonce" );
+				echo '<button id="srx-close-btn" name="srx-close-btn" class="srx-close-btn-style"><img src="' . esc_url( plugins_url( '/images/close-white.png', __FILE__ ) ) . '" width="20" height="20" /></button>'; 
+			?>
+			<center>
+				<iframe class="srx-video-wpdki" width="900" height="500" src="https://www.youtube.com/embed/4DMTdlvIisY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</center>
+			<input type="hidden" id="srx_ajax_popup_url" value="<?php echo esc_url(admin_url('admin-ajax.php')); ?>">
+		</div>
+		<?php 
+		echo '<a href="https://wpdki.com/free-version-demonstration/" target="_blank"><img src="' . esc_url( plugins_url( '/images/banner-new-one.png', __FILE__ ) ) . '" alt="sidebar" width="100%" height="auto"></a> ';
+		
+		$popup_exist = get_option( 'srx_popup_open' );
+
+		if(isset($_GET['page']) && ($_GET['page'] == 'seerox_wpdki_settings') && ($popup_exist == false)){
+	  	?>
+			<script>
+				jQuery.magnificPopup.open({
+				  items: {src: '#srxwpdkivideoStory'},
+				  type: 'inline',
+				  closeOnContentClick : false,
+				  closeOnBgClick: false,
+				}, 0);
+			</script>
+		<?php
+  		}
+		?>
+
+	</div> -->
+
+	<div class="srx-wpdki-plug-sidebar-main-section">
+		<a href="https://www.seerox.com/contact-us/" target="blank"><img class="srx-sidebar-contact" src="https://wpdki.com/wp-content/uploads/2024/06/seerox-services-banner-wpdki.png"></a>
+	</div>
+
 </div>
 <script>
 jQuery(document).ready(function(){
@@ -256,5 +284,16 @@ div#srx_wpdki_tf_m {
     margin-top: 1em;
     font-size: 15px;
     font-weight: bold;
+}
+.srx_link_style{
+	text-decoration: none;
+	font-weight: 400;
+}
+.srx-top-feature{
+	background-color: #ca2222;
+    padding: 1px 5px 3px 5px;
+    color: white;
+    border-radius: 4px;
+    font-size: 11px;
 }
 </style>
