@@ -3,11 +3,11 @@
  * Plugin Name: WP Dynamic Keywords Injector
  * Plugin URI: https://wordpress.org/plugins/wp-dynamic-keywords-injector/
  * Description: WP Dynamic Keywords Injector inserts dynamic keywords, spintax, page title and meta title.
- * Version: 2.3.26
+ * Version: 2.3.27
  * Author: Seerox
  * Author URI: https://www.seerox.com
  * Requires at least: 3.8
- * Tested up to: 6.7.1
+ * Tested up to: 6.9
  */
 
 /**
