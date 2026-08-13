@@ -3,8 +3,8 @@ Contributors: mughees.hafeez
 Donate link: https://www.seerox.com/
 Tags: dynamic, keywords, injector, insertion, title, page title, title tags, seo, ads, adwords, spintax, landing page
 Requires at least: 3.8
-Tested up to: 7.0
-Stable tag: 2.3.28
+Tested up to: 7.0.4
+Stable tag: 2.3.29
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
